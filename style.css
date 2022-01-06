@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+}
+/* login and registration choose option  */
+.welcome {
+background-color: black;
+background-image:url("background.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 97vh;
+text-align: center;
+}
+.choose {
+    padding-top: 30vh;
+}
+a {
+font-size: 7vh;
+border: 1px solid rgb(141, 229, 245);
+border-radius: .4vh;
+padding:.5vh 5vh ;
+text-decoration: none;
+color: rgb(255, 255, 255);
+background-color:rgb(103, 224, 214) ;
+}
+.choose .login {
+    padding: .5vh 8vh;
+}
+.choose p{
+margin-top: 5vh;
+margin-bottom: 1vh;
+}
+a span {
+    font-size: 4.5vh;
+    margin-left: 1vh;
+}
+
+/*login page design*/
+.login-page {
+background-color: black;
+background-image:url("background.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 97vh;
+text-align: center;
+}
+.login-data{
+    padding-top: 30vh;
+    font-size: 4vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.login-data label{
+    display: block;
+    margin-bottom: 1vh;
+         
+}
+.login-data input {
+    margin-bottom: 3vh;
+    width:20%;
+    padding: 1.5vh 3vh;
+    background-color:rgb(103, 224, 214) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #fff;
+    border-radius: .4vh;
+
+}
+.login-data a {
+    font-size: 4vh;
+    display: inline-block;
+    margin-top: 4vh;
+    width: 18.5%;
+    background-color:rgb(103, 224, 214) ;
+    border: 1px solid #fff;
+}
+.login-data a span {
+    font-size: 4vh;
+    padding-left: 2vh;
+}
+
+/*register part code start here*/
+.register-page{
+    
+background-color: black;
+background-image:url("background.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 97vh;
+text-align: center;
+}
+.register-data{
+    padding-top: 5vh;
+    font-size: 2.5vh;
+    font-family:monospace;
+    font-weight: 700;
+    text-align: center;
+}
+.register-data label {
+display: inline-block;
+margin-bottom: 2vh;
+margin-right: 3vh;
+width: 8%;
+}
+.input{
+    margin-bottom: 3vh;
+    width:20%;
+    padding: 1.5vh 3vh;
+    background-color:rgb(103, 224, 214) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #fff;
+    border-radius: .4vh;
+}
+.button {
+font-size: 4vh;
+border: 1px solid rgb(0, 0, 0);
+border-radius: .4vh;
+padding:.5vh 5vh ;
+color: rgb(255, 255, 255);
+background-color:rgb(103, 224, 214) ;
+margin-top: 2vh;
+}
+select {
+    width:20%;
+    padding: 1.5vh 3vh;
+    background-color:rgb(103, 224, 214) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #fff;
+    border-radius: .4vh;
+}
